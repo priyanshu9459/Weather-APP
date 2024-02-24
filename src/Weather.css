@@ -1,0 +1,100 @@
+/* Style for the main container */
+main {
+    padding: 20px;
+    text-align: center;
+    min-height: 100vh;
+  }
+  
+  /* Style for the search box */
+  .search-box {
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the background based on temperature */
+  .app {
+    background-image: url(../public/Image/cold.jpg);
+    background-size: cover;
+    background-position: bottom;
+    transition: background-image 0.4s ease;
+  }
+  
+  .app-warm {
+    background-image: url(../public/Image/warm.jpg);
+  }
+  
+  /* Style for the search bar */
+  .search-bar {
+    display: block;
+    width: 40%;
+    margin: 0 auto; /* Center align the search bar */
+    padding: 12px 20px;
+    border: none;
+    border-radius: 50px;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    background-color: #f2f2f2;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+
+  
+  /* Add hover effect for the search bar */
+  .search-bar:hover {
+    background-color: #e6e6e6;
+    transform: scale(1.05); /* Scale up on hover */
+  }
+  
+  /* Add focus effect for the search bar */
+  .search-bar:focus {
+    outline: none;
+    background-color: #fff;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for the location box */
+  .location-box {
+    background-color: rgba(255, 255, 255, 0.9); /* White background with 90% opacity */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Add hover effect for the location box */
+  .location-box:hover {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style for location text */
+  .location {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for date text */
+  .date {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  /* Style for weather box */
+  .weather-box {
+    font-size: 10rem;
+    font-weight: bold;
+    position: relative;
+    transition: font-size 0.3s ease; /* Added transition for font size */
+  }
+  
+  /* Add hover effect for weather box */
+  .weather-box:hover {
+    font-size: 12rem; /* Increase font size on hover */
+  }
+  
+  /* Style for weather text */
+  .weather {
+    font-size: 1.5rem;
+  }
+  
